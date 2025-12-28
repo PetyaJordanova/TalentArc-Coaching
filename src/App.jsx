@@ -2,9 +2,9 @@ import React from 'react';
 
 const TalentArc = () => {
   return (
-    <div style={{ fontFamily: "'Josefin Sans', sans-serif", overflowX: 'hidden', width: '100%' }}>
+    <div style={{ fontFamily: "'Inter', sans-serif", overflowX: 'hidden', width: '100%' }}>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700;800&family=Crimson+Pro:wght@400;600;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700;900&display=swap');
         
         * {
           margin: 0;
@@ -13,7 +13,7 @@ const TalentArc = () => {
         }
 
         body {
-          font-family: 'Josefin Sans', sans-serif;
+          font-family: 'Inter', sans-serif;
           color: #1A1A1A;
           background: #FFFFFF;
           line-height: 1.7;
@@ -21,8 +21,8 @@ const TalentArc = () => {
         }
 
         .headline {
-          font-family: 'Crimson Pro', serif;
-          font-weight: 900;
+          font-family: 'Playfair Display', serif;
+          font-weight: 700;
           line-height: 1.1;
         }
 
@@ -82,9 +82,9 @@ const TalentArc = () => {
           alignItems: 'center'
         }}>
           <div style={{
-            fontFamily: "'Crimson Pro', serif",
+            fontFamily: "'Playfair Display', serif",
             fontSize: '2rem',
-            fontWeight: 900,
+            fontWeight: 700,
             color: '#1A1A1A'
           }}>
             TalentArc
@@ -127,12 +127,11 @@ const TalentArc = () => {
             </p>
 
             <h1 className="headline" style={{ fontSize: '4.5rem', marginBottom: '2rem', color: '#FFFFFF' }}>
-              Get Hired.<br/>Stop Getting Rejected.
+              Shape Your Career.<br/>Land Your Dream Job.
             </h1>
 
-            <p style={{ fontSize: '1.4rem', lineHeight: 1.8, marginBottom: '3rem', opacity: 0.9 }}>
-              I spent 8 years as a tech recruiter. I've reviewed thousands of resumes and conducted 
-              hundreds of interviews. Now I help people get to the other side of the table.
+            <p style={{ fontSize: '1.3rem', lineHeight: 1.8, marginBottom: '3rem', opacity: 0.95 }}>
+              Eight years as a tech recruiter taught me this: the best hires aren't the ones who fit a template—they're the ones who know how to position their unique value. I've reviewed thousands of resumes and conducted hundreds of interviews. I know exactly what hiring managers are looking for. Now I use that insider perspective to help you stand out and land the role you deserve.
             </p>
 
             <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -153,22 +152,52 @@ const TalentArc = () => {
             textAlign: 'center'
           }}>
             <div>
-              <div style={{ fontFamily: "'Crimson Pro', serif", fontSize: '3rem', fontWeight: 900, marginBottom: '0.5rem' }}>
+              <div style={{
+                fontFamily: "'Playfair Display', serif",
+                fontSize: '3rem',
+                fontWeight: 700,
+                marginBottom: '0.5rem',
+                display: 'inline-block',
+                padding: '0.5rem 1.5rem',
+                border: '2px solid rgba(255, 255, 255, 0.4)',
+                borderRadius: '4px',
+                background: 'rgba(255, 255, 255, 0.1)'
+              }}>
                 8 Years
               </div>
-              <div style={{ opacity: 0.9 }}>Recruiting Experience</div>
+              <div style={{ opacity: 0.9, marginTop: '1rem' }}>Recruiting Experience</div>
             </div>
             <div>
-              <div style={{ fontFamily: "'Crimson Pro', serif", fontSize: '3rem', fontWeight: 900, marginBottom: '0.5rem' }}>
+              <div style={{
+                fontFamily: "'Playfair Display', serif",
+                fontSize: '3rem',
+                fontWeight: 700,
+                marginBottom: '0.5rem',
+                display: 'inline-block',
+                padding: '0.5rem 1.5rem',
+                border: '2px solid rgba(255, 255, 255, 0.4)',
+                borderRadius: '4px',
+                background: 'rgba(255, 255, 255, 0.1)'
+              }}>
                 90%+
               </div>
-              <div style={{ opacity: 0.9 }}>Offer Acceptance Rate</div>
+              <div style={{ opacity: 0.9, marginTop: '1rem' }}>Offer Acceptance Rate</div>
             </div>
             <div>
-              <div style={{ fontFamily: "'Crimson Pro', serif", fontSize: '3rem', fontWeight: 900, marginBottom: '0.5rem' }}>
+              <div style={{
+                fontFamily: "'Playfair Display', serif",
+                fontSize: '3rem',
+                fontWeight: 700,
+                marginBottom: '0.5rem',
+                display: 'inline-block',
+                padding: '0.5rem 1.5rem',
+                border: '2px solid rgba(255, 255, 255, 0.4)',
+                borderRadius: '4px',
+                background: 'rgba(255, 255, 255, 0.1)'
+              }}>
                 1,000+
               </div>
-              <div style={{ opacity: 0.9 }}>Resumes Reviewed</div>
+              <div style={{ opacity: 0.9, marginTop: '1rem' }}>Resumes Reviewed</div>
             </div>
           </div>
         </div>
@@ -211,7 +240,7 @@ const TalentArc = () => {
                   borderLeft: '3px solid #9A6B7A'
                 }}>
                   <h3 style={{
-                    fontFamily: "'Crimson Pro', serif",
+                    fontFamily: "'Playfair Display', serif",
                     fontSize: '1.5rem',
                     fontWeight: 700,
                     marginBottom: '1rem',
@@ -276,7 +305,7 @@ const TalentArc = () => {
 
             <div style={{ background: '#FAF8F5', padding: '3rem', borderRadius: '8px' }}>
               <h3 style={{
-                fontFamily: "'Crimson Pro', serif",
+                fontFamily: "'Playfair Display', serif",
                 fontSize: '1.8rem',
                 fontWeight: 700,
                 marginBottom: '2rem',
@@ -401,7 +430,7 @@ const TalentArc = () => {
                 )}
 
                 <h3 style={{
-                  fontFamily: "'Crimson Pro', serif",
+                  fontFamily: "'Playfair Display', serif",
                   fontSize: '1.8rem',
                   fontWeight: 700,
                   marginBottom: '0.5rem',
@@ -411,7 +440,7 @@ const TalentArc = () => {
                 </h3>
                 <p style={{ fontSize: '0.9rem', color: '#D4B5BD', marginBottom: '1rem' }}>{service.duration}</p>
                 <div style={{
-                  fontFamily: "'Crimson Pro', serif",
+                  fontFamily: "'Playfair Display', serif",
                   fontSize: '3rem',
                   fontWeight: 900,
                   color: '#FFFFFF',
@@ -486,7 +515,7 @@ const TalentArc = () => {
                   paddingBottom: '2rem'
                 }}>
                   <h3 style={{
-                    fontFamily: "'Crimson Pro', serif",
+                    fontFamily: "'Playfair Display', serif",
                     fontSize: '1.5rem',
                     fontWeight: 700,
                     marginBottom: '1rem',
@@ -541,7 +570,7 @@ const TalentArc = () => {
       }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{
-            fontFamily: "'Crimson Pro', serif",
+            fontFamily: "'Playfair Display', serif",
             fontSize: '1.5rem',
             fontWeight: 900,
             color: '#FFFFFF',
