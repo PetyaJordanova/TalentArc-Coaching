@@ -130,8 +130,8 @@ const TalentArc = () => {
               Shape Your Career.<br/>Land Your Dream Job.
             </h1>
 
-            <p style={{ fontSize: '1.3rem', lineHeight: 1.8, marginBottom: '3rem', opacity: 0.95 }}>
-              Eight years as a tech recruiter taught me this: the best hires aren't the ones who fit a template—they're the ones who know how to position their unique value. I've reviewed thousands of resumes and conducted hundreds of interviews. I know exactly what hiring managers are looking for. Now I use that insider perspective to help you stand out and land the role you deserve.
+            <p style={{ fontSize: '1.15rem', lineHeight: 1.8, marginBottom: '3rem', opacity: 0.95, fontWeight: 300 }}>
+              Eight years as a tech recruiter taught me this: the best hires aren&apos;t the ones who fit a template - they&apos;re the ones who know how to position their unique value. I&apos;ve reviewed thousands of resumes and conducted hundreds of interviews. I know exactly what hiring managers are looking for. Now I use that insider perspective to help you stand out and land the role you deserve.
             </p>
 
             <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -207,48 +207,58 @@ const TalentArc = () => {
       <section style={{ padding: '5rem 2rem', background: '#FAF8F5' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
-            <h2 className="headline" style={{ fontSize: '3rem', marginBottom: '2rem', color: '#1A1A1A' }}>
+            <h2 className="headline" style={{ fontSize: '3rem', marginBottom: '1rem', color: '#1A1A1A' }}>
               The Reality
             </h2>
             <p style={{ fontSize: '1.2rem', color: '#6B6B6B', marginBottom: '3rem', lineHeight: 1.8 }}>
-              You're sending out dozens of applications. Maybe hundreds. The responses? Silence. Or automated rejections.
+              The job market has changed. You&apos;re feeling it.
             </p>
 
             <div style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
               gap: '2rem',
-              marginTop: '3rem'
+              marginTop: '3rem',
+              textAlign: 'left'
             }}>
               {[
                 {
-                  title: 'You Apply to 100+ Jobs',
-                  description: 'Get zero responses. Your resume is being filtered out by AI systems before a human even sees it.'
+                  title: 'Applications Disappear Into the Void',
+                  description: 'You send out dozens, maybe hundreds. AI systems reject you before a human ever sees your resume. You&apos;re qualified, but invisible.'
+                },
+                {
+                  title: 'You Don&apos;t Know How to Break Into the Field You Want',
+                  description: 'Tech. Engineering. AI. You want in, but the path isn&apos;t clear. Every posting wants experience you don&apos;t have. No one&apos;s showing you the actual entry points.'
+                },
+                {
+                  title: 'You&apos;re Building a Career, But You Don&apos;t Have a Map',
+                  description: 'You know where you want to go, but not how to get there. The steps aren&apos;t obvious. The AI-driven job market has rewritten the rules, and the old advice doesn&apos;t apply.'
                 },
                 {
                   title: 'Interviews Go Nowhere',
-                  description: 'You give correct answers that somehow feel wrong. You leave knowing you didn\'t get the job.'
+                  description: 'You answer correctly. You&apos;re prepared. And somehow it still doesn&apos;t land. You leave knowing it&apos;s a no, with zero insight into why.'
                 },
                 {
-                  title: 'No One Explains Why',
-                  description: 'Career coaches give generic advice. You need insider knowledge from someone who\'s actually hired people.'
+                  title: 'Cookie-Cutter Coaching Won&apos;t Get You There',
+                  description: 'You need someone who&apos;s hired hundreds of people, built AI and data teams from scratch, and actually understands both the human side and the tech transformation happening right now.'
                 }
               ].map((item, idx) => (
                 <div key={idx} style={{
                   background: '#FFFFFF',
-                  padding: '2.5rem 2rem',
+                  padding: '2rem 1.75rem',
                   borderLeft: '3px solid #9A6B7A'
                 }}>
                   <h3 style={{
                     fontFamily: "'Playfair Display', serif",
-                    fontSize: '1.5rem',
+                    fontSize: '1.35rem',
                     fontWeight: 700,
                     marginBottom: '1rem',
-                    color: '#1A1A1A'
+                    color: '#1A1A1A',
+                    lineHeight: 1.3
                   }}>
                     {item.title}
                   </h3>
-                  <p style={{ color: '#6B6B6B', lineHeight: 1.7 }}>{item.description}</p>
+                  <p style={{ color: '#6B6B6B', lineHeight: 1.7, fontSize: '0.95rem' }}>{item.description}</p>
                 </div>
               ))}
             </div>
@@ -373,10 +383,18 @@ const TalentArc = () => {
           }}>
             {[
               {
+                name: 'LinkedIn Optimization',
+                price: '€30',
+                duration: '40 minutes',
+                description: 'Your LinkedIn is often the first thing recruiters see - sometimes before your CV. We&apos;ll optimize your profile to get found by recruiters and make them want to reach out.',
+                includes: ['Profile audit with recruiter lens', 'Headline and summary rewrite', 'Experience section optimization', 'Searchability and keyword strategy'],
+                popular: false
+              },
+              {
                 name: 'CV Review & Rewrite',
                 price: '€50',
                 duration: '60 minutes',
-                description: 'We\'ll review your CV together on a call. I\'ll show you exactly what\'s getting you filtered out. We\'ll rewrite it during the session.',
+                description: 'We&apos;ll review your CV together on a call. I&apos;ll show you exactly what&apos;s getting you filtered out. We&apos;ll rewrite it during the session.',
                 includes: ['Live CV review and feedback', 'Real-time rewrite', 'ATS optimization', 'Recruiter perspective'],
                 popular: false
               },
@@ -384,15 +402,23 @@ const TalentArc = () => {
                 name: 'Mock Interview',
                 price: '€70',
                 duration: '75 minutes',
-                description: 'I\'ll interview you as if I\'m actually hiring. Then we\'ll debrief—what would make me move you forward and what would make me pass.',
+                description: 'I&apos;ll interview you as if I&apos;m actually hiring. Then we&apos;ll debrief - what would make me move you forward and what would make me pass.',
                 includes: ['50-minute realistic interview', '25-minute detailed feedback', 'Recording of the session', 'Written summary'],
+                popular: false
+              },
+              {
+                name: 'Career Transition Strategy',
+                price: '€99',
+                duration: '90 minutes',
+                description: 'You want to break into a new field but don&apos;t know how to position yourself. We&apos;ll map out your transferable skills, identify realistic entry points, and create a targeted approach.',
+                includes: ['Skills translation and positioning', 'Target role identification', 'Gap analysis and upskilling roadmap', 'Networking and application strategy', 'Written action plan'],
                 popular: false
               },
               {
                 name: 'Career Starter Package',
                 price: '€200',
                 duration: '3 sessions',
-                description: 'For people who need more than a quick fix. We\'ll tackle your CV, interview skills, and job search strategy systematically.',
+                description: 'For people who need more than a quick fix. We&apos;ll tackle your CV, interview skills, and job search strategy systematically.',
                 includes: ['Session 1: CV and LinkedIn (60 min)', 'Session 2: Mock interview (75 min)', 'Session 3: Job search strategy (45 min)', 'Email support between sessions'],
                 popular: true
               },
@@ -502,12 +528,12 @@ const TalentArc = () => {
                   a: "Most clients start getting interview invitations within 2-3 weeks of updating their materials. Results depend on your market, your experience level, and how much effort you put in."
                 },
                 {
-                  q: "Do you work with people outside Bulgaria?",
-                  a: "Yes. All sessions are remote. I work with clients across Europe and beyond. I have experience with both Bulgarian and international job markets."
+                  q: "Do you work with clients internationally?",
+                  a: "Absolutely. All sessions are remote. I work with professionals across Europe, North America, and beyond. I understand both local market nuances and global hiring practices."
                 },
                 {
-                  q: "What industries do you cover?",
-                  a: "I specialized in tech recruiting—AI, data, engineering, product roles. That's where I'm strongest. But the fundamentals apply across industries."
+                  q: "What industries do you specialize in?",
+                  a: "My background is in tech - engineering, product, SaaS, and technical roles. That&apos;s where my expertise runs deepest. However, the fundamentals of how hiring decisions get made, how to position your unique value, and how to navigate modern recruitment systems apply regardless of industry."
                 }
               ].map((faq, idx) => (
                 <div key={idx} style={{
