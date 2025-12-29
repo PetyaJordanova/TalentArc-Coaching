@@ -89,7 +89,7 @@ const TalentArc = () => {
           }}>
             TalentArc
           </div>
-          <a href="https://calendly.com/your-link" className="button">
+          <a href="https://calendly.com/talentarc" target="_blank" rel="noopener noreferrer" className="button">
             Book a Session
           </a>
         </div>
@@ -136,7 +136,7 @@ const TalentArc = () => {
 
             <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <a href="#services" className="button">See Services</a>
-              <a href="https://calendly.com/your-link" className="button button-secondary">Book Free Call</a>
+              <a href="https://calendly.com/talentarc" target="_blank" rel="noopener noreferrer" className="button button-secondary">Book Free Call</a>
             </div>
           </div>
         </div>
@@ -487,7 +487,7 @@ const TalentArc = () => {
                   ))}
                 </div>
 
-                <a href="https://calendly.com/your-link" className="button" style={{
+                <a href="https://calendly.com/talentarc" target="_blank" rel="noopener noreferrer" className="button" style={{
                   width: '100%',
                   textAlign: 'center',
                   background: service.popular ? '#9A6B7A' : '#FFFFFF',
@@ -568,7 +568,7 @@ const TalentArc = () => {
               Book a session. I'll give you honest feedback and practical solutions. 
               No corporate jargon. Just clear insight from someone who's been making hiring decisions for 8 years.
             </p>
-            <a href="https://calendly.com/your-link" className="button" style={{
+            <a href="https://calendly.com/talentarc" target="_blank" rel="noopener noreferrer" className="button" style={{
               background: '#FFFFFF',
               color: '#1A1A1A',
               fontSize: '1rem',
