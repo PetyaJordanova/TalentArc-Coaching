@@ -131,7 +131,7 @@ const TalentArc = () => {
             </h1>
 
             <p style={{ fontSize: '1.15rem', lineHeight: 1.8, marginBottom: '3rem', opacity: 0.95, fontWeight: 300 }}>
-              Eight years as a tech recruiter taught me this: the best hires aren&apos;t the ones who fit a template - they&apos;re the ones who know how to position their unique value. I&apos;ve reviewed thousands of resumes and conducted hundreds of interviews. I know exactly what hiring managers are looking for. Now I use that insider perspective to help you stand out and land the role you deserve.
+              Eight years as a tech recruiter taught me this: the best hires aren't the ones who fit a template - they're the ones who know how to position their unique value. I've reviewed thousands of resumes and conducted hundreds of interviews. I know exactly what hiring managers are looking for. Now I use that insider perspective to help you stand out and land the role you deserve.
             </p>
 
             <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -224,19 +224,19 @@ const TalentArc = () => {
               {[
                 {
                   title: 'Applications Disappear Into the Void. Interviews Go Nowhere',
-                  description: 'You send out dozen applications. You answer correctly. And somehow it still doesn&apos;t land. You&apos;re qualified, but invisible.'
+                  description: 'You send out dozen applications. You answer correctly. And somehow it still doesn't land. You're qualified, but invisible.'
                 },
                 {
                   title: 'You Don&apos;t Know How to Break Into the Field You Want',
-                  description: 'Tech. Engineering. AI. You want in, but the path isn&apos;t clear. Every posting wants experience you don&apos;t have. No one&apos;s showing you the actual entry points.'
+                  description: 'Tech. Engineering. AI. You want in, but the path isn't clear. Every posting wants experience you don't have. No one's showing you the actual entry points.'
                 },
                 {
                   title: 'You&apos;re Building a Career, But You Don&apos;t Have a Map',
-                  description: 'You know where you want to go, but not how to get there. The steps aren&apos;t obvious. The AI-driven job market has rewritten the rules, and the old advice doesn&apos;t apply.'
+                  description: 'You know where you want to go, but not how to get there. The steps aren't obvious. The AI-driven job market has rewritten the rules, and the old advice doesn't apply.'
                 },
                 {
                   title: 'Cookie-Cutter Coaching Won&apos;t Get You There',
-                  description: 'You need someone who&apos;s hired hundreds of people, built AI and data teams from scratch, and actually understands both the human side and the tech transformation happening right now.'
+                  description: 'You need someone who's hired hundreds of people, built AI and data teams from scratch, and actually understands both the human side and the tech transformation happening right now.'
                 }
               ].map((item, idx) => (
                 <div key={idx} style={{
@@ -289,7 +289,7 @@ const TalentArc = () => {
 
               <p style={{ fontSize: '1.1rem', color: '#6B6B6B', marginBottom: '1.5rem', lineHeight: 1.8 }}>
                 I spent 8 years recruiting for tech companies - Commerzbank, Accenture, 
-                ManpowerGroup - hiring for AI, data, and engineering teams.
+                ManpowerGroup - hiring for engineer development, data, and AI teams.
               </p>
 
               <p style={{ fontSize: '1.1rem', color: '#6B6B6B', marginBottom: '1.5rem', lineHeight: 1.8 }}>
@@ -529,7 +529,7 @@ const TalentArc = () => {
                 },
                 {
                   q: "What industries do you specialize in?",
-                  a: "My background is in tech - engineering, product, SaaS, and technical roles. That&apos;s where my expertise runs deepest. However, the fundamentals of how hiring decisions get made, how to position your unique value, and how to navigate modern recruitment systems apply regardless of industry."
+                  a: "My background is in tech - engineering, product, SaaS, and technical roles. That's where my expertise runs deepest. However, the fundamentals of how hiring decisions get made, how to position your unique value, and how to navigate modern recruitment systems apply regardless of industry."
                 }
               ].map((faq, idx) => (
                 <div key={idx} style={{
