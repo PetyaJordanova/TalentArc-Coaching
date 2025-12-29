@@ -131,7 +131,7 @@ const TalentArc = () => {
             </h1>
 
             <p style={{ fontSize: '1.15rem', lineHeight: 1.8, marginBottom: '3rem', opacity: 0.95, fontWeight: 300 }}>
-              Eight years as a tech recruiter taught me this: the best hires aren&apos;t the ones who fit a template - they&apos;re the ones who know how to position their unique value. I&apos;ve reviewed thousands of resumes and conducted hundreds of interviews. I know exactly what hiring managers are looking for. Now I use that insider perspective to help you stand out and land the role you deserve.
+              Eight years as a tech recruiter taught me this: the best hires aren’t the ones who fit a template - they’re the ones who know how to position their unique value. I’ve reviewed thousands of resumes and conducted hundreds of interviews. I know exactly what hiring managers are looking for. Now I use that insider perspective to help you stand out and land the role you deserve.
             </p>
 
             <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -211,7 +211,7 @@ const TalentArc = () => {
               The Reality
             </h2>
             <p style={{ fontSize: '1.2rem', color: '#6B6B6B', marginBottom: '3rem', lineHeight: 1.8 }}>
-              The job market has changed. You&apos;re feeling it.
+              The job market has changed. You’re feeling it.
             </p>
 
             <div style={{
@@ -224,19 +224,19 @@ const TalentArc = () => {
               {[
                 {
                   title: 'Applications Disappear Into the Void. Interviews Go Nowhere',
-                  description: 'You send out dozen applications. You answer correctly. And somehow it still doesn&apos;t land. You&apos;re qualified, but invisible.'
+                  description: 'You send out dozen applications. You answer correctly. And somehow it still doesn’t land. You’re qualified, but invisible.'
                 },
                 {
-                  title: 'You Don&apos;t Know How to Break Into the Field You Want',
-                  description: 'Tech. Engineering. AI. You want in, but the path isn&apos;t clear. Every posting wants experience you don&apos;t have. No one&apos;s showing you the actual entry points.'
+                  title: 'You Don’t Know How to Break Into the Field You Want',
+                  description: 'Tech. Engineering. AI. You want in, but the path isn’t clear. Every posting wants experience you don’t have. No one’s showing you the actual entry points.'
                 },
                 {
-                  title: 'You&apos;re Building a Career, But You Don&apos;t Have a Map',
-                  description: 'You know where you want to go, but not how to get there. The steps aren&apos;t obvious. The AI-driven job market has rewritten the rules, and the old advice doesn&apos;t apply.'
+                  title: 'You’re Building a Career, But You Don’t Have a Map',
+                  description: 'You know where you want to go, but not how to get there. The steps aren’t obvious. The AI-driven job market has rewritten the rules, and the old advice doesn’t apply.'
                 },
                 {
-                  title: 'Cookie-Cutter Coaching Won&apos;t Get You There',
-                  description: 'You need someone who&apos;s hired hundreds of people, built AI and data teams from scratch, and actually understands both the human side and the tech transformation happening right now.'
+                  title: 'Cookie-Cutter Coaching Won’t Get You There',
+                  description: 'You need someone who’s hired hundreds of people, built AI and data teams from scratch, and actually understands both the human side and the tech transformation happening right now.'
                 }
               ].map((item, idx) => (
                 <div key={idx} style={{
@@ -382,7 +382,7 @@ const TalentArc = () => {
                 name: 'LinkedIn Optimization',
                 price: '€30',
                 duration: '40 minutes',
-                description: 'Your LinkedIn is often the first thing recruiters see - sometimes before your CV. We&apos;ll optimize your profile to get found by recruiters and make them want to reach out.',
+                description: 'Your LinkedIn is often the first thing recruiters see - sometimes before your CV. We’ll optimize your profile to get found by recruiters and make them want to reach out.',
                 includes: ['Profile audit with recruiter lens', 'Headline and summary rewrite', 'Experience section optimization', 'Searchability and keyword strategy'],
                 popular: false
               },
@@ -390,7 +390,7 @@ const TalentArc = () => {
                 name: 'CV Review & Rewrite',
                 price: '€50',
                 duration: '60 minutes',
-                description: 'We&apos;ll review your CV together on a call. I&apos;ll show you exactly what&apos;s getting you filtered out. We&apos;ll rewrite it during the session.',
+                description: 'We’ll review your CV together on a call. I’ll show you exactly what’s getting you filtered out. We’ll rewrite it during the session.',
                 includes: ['Live CV review and feedback', 'Real-time rewrite', 'ATS optimization', 'Recruiter perspective'],
                 popular: false
               },
@@ -398,7 +398,7 @@ const TalentArc = () => {
                 name: 'Mock Interview',
                 price: '€70',
                 duration: '75 minutes',
-                description: 'I&apos;ll interview you as if I&apos;m actually hiring. Then we&apos;ll debrief - what would make me move you forward and what would make me pass.',
+                description: 'I’ll interview you as if I’m actually hiring. Then we’ll debrief - what would make me move you forward and what would make me pass.',
                 includes: ['50-minute realistic interview', '25-minute detailed feedback', 'Recording of the session', 'Written summary'],
                 popular: false
               },
@@ -406,7 +406,7 @@ const TalentArc = () => {
                 name: 'Transition Strategy',
                 price: '€99',
                 duration: '90 minutes',
-                description: 'You want to break into a new field but don&apos;t know how to position yourself. We&apos;ll map out your transferable skills, identify realistic entry points, and create a targeted approach.',
+                description: 'You want to break into a new field but don’t know how to position yourself. We’ll map out your transferable skills, identify realistic entry points, and create a targeted approach.',
                 includes: ['Skills translation and positioning', 'Target role identification', 'Gap analysis and upskilling roadmap', 'Networking and application strategy', 'Written action plan'],
                 popular: false
               },
@@ -414,7 +414,7 @@ const TalentArc = () => {
                 name: 'Career Starter Package',
                 price: '€200',
                 duration: '3 sessions',
-                description: 'For people who need more than a quick fix. We&apos;ll tackle your CV, interview skills, and job search strategy systematically.',
+                description: 'For people who need more than a quick fix. We’ll tackle your CV, interview skills, and job search strategy systematically.',
                 includes: ['Session 1: CV and LinkedIn (60 min)', 'Session 2: Mock interview (75 min)', 'Session 3: Job search strategy (45 min)', 'Email support between sessions'],
                 popular: true
               },
@@ -529,7 +529,7 @@ const TalentArc = () => {
                 },
                 {
                   q: "What industries do you specialize in?",
-                  a: "My background is in tech - engineering, product, SaaS, and technical roles. That&apos;s where my expertise runs deepest. However, the fundamentals of how hiring decisions get made, how to position your unique value, and how to navigate modern recruitment systems apply regardless of industry."
+                  a: "My background is in tech - engineering, product, SaaS, and technical roles. That’s where my expertise runs deepest. However, the fundamentals of how hiring decisions get made, how to position your unique value, and how to navigate modern recruitment systems apply regardless of industry."
                 }
               ].map((faq, idx) => (
                 <div key={idx} style={{
