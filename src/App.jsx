@@ -136,7 +136,7 @@ const TalentArc = () => {
 
             <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <a href="#services" className="button">See Services</a>
-              <a href="https://calendly.com/talentarc" target="_blank" rel="noopener noreferrer" className="button button-secondary">Book Free Call</a>
+              <a href="https://calendly.com/talentarc/new-meeting" target="_blank" rel="noopener noreferrer" className="button button-secondary">Book Free Call</a>
             </div>
           </div>
         </div>
@@ -384,6 +384,7 @@ const TalentArc = () => {
                 duration: '40 minutes',
                 description: 'Your LinkedIn is often the first thing recruiters see - sometimes before your CV. We’ll optimize your profile to get found by recruiters and make them want to reach out.',
                 includes: ['Profile audit with recruiter lens', 'Headline and summary rewrite', 'Experience section optimization', 'Searchability and keyword strategy'],
+                calendlyLink: 'https://calendly.com/talentarc/linkedin-optimization',
                 popular: false
               },
               {
@@ -392,6 +393,7 @@ const TalentArc = () => {
                 duration: '60 minutes',
                 description: 'We’ll review your CV together on a call. I’ll show you exactly what’s getting you filtered out. We’ll rewrite it during the session.',
                 includes: ['Live CV review and feedback', 'Real-time rewrite', 'ATS optimization', 'Recruiter perspective'],
+                calendlyLink: 'https://calendly.com/talentarc/cv-review-rewrite',
                 popular: false
               },
               {
@@ -400,6 +402,7 @@ const TalentArc = () => {
                 duration: '75 minutes',
                 description: 'I’ll interview you as if I’m actually hiring. Then we’ll debrief - what would make me move you forward and what would make me pass.',
                 includes: ['50-minute realistic interview', '25-minute detailed feedback', 'Recording of the session', 'Written summary'],
+                calendlyLink: 'https://calendly.com/talentarc/mock-interview',
                 popular: false
               },
               {
@@ -408,6 +411,7 @@ const TalentArc = () => {
                 duration: '90 minutes',
                 description: 'You want to break into a new field but don’t know how to position yourself. We’ll map out your transferable skills, identify realistic entry points, and create a targeted approach.',
                 includes: ['Skills translation and positioning', 'Target role identification', 'Gap analysis and upskilling roadmap', 'Networking and application strategy', 'Written action plan'],
+                calendlyLink: 'https://calendly.com/talentarc/transition-strategy',
                 popular: false
               },
               {
@@ -416,6 +420,7 @@ const TalentArc = () => {
                 duration: '3 sessions',
                 description: 'For people who need more than a quick fix. We’ll tackle your CV, interview skills, and job search strategy systematically.',
                 includes: ['Session 1: CV and LinkedIn (60 min)', 'Session 2: Mock interview (75 min)', 'Session 3: Job search strategy (45 min)', 'Email support between sessions'],
+                calendlyLink: 'https://calendly.com/talentarc/career-starter-package',
                 popular: true
               },
               {
@@ -424,6 +429,7 @@ const TalentArc = () => {
                 duration: '6 weeks',
                 description: 'For people making a significant career move. We work together over 6 weeks to reposition your experience and create a realistic plan.',
                 includes: ['6 weekly one-hour sessions', 'Complete career positioning strategy', 'CV, LinkedIn, portfolio guidance', 'Interview preparation', 'Email/WhatsApp support'],
+                calendlyLink: 'https://calendly.com/talentarc/career-mentorship',
                 popular: false
               }
             ].map((service, idx) => (
@@ -487,7 +493,7 @@ const TalentArc = () => {
                   ))}
                 </div>
 
-                <a href="https://calendly.com/talentarc" target="_blank" rel="noopener noreferrer" className="button" style={{
+                <a href={service.calendlyLink} target="_blank" rel="noopener noreferrer" className="button" style={{
                   width: '100%',
                   textAlign: 'center',
                   background: service.popular ? '#9A6B7A' : '#FFFFFF',
