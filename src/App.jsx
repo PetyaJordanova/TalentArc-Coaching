@@ -583,7 +583,7 @@ const TalentArc = () => {
         </div>
       </section>
 
-      {/* Footer */}
+        {/* Footer */}
       <footer style={{
         background: '#1A1A1A',
         color: 'rgba(255, 255, 255, 0.6)',
@@ -600,17 +600,14 @@ const TalentArc = () => {
           }}>
             TalentArc
           </div>
-          <p style={{ marginBottom: '1rem' }}>Career Coaching from a Former Tech Recruiter</p>
-          <p style={{ marginBottom: '1rem' }}>
+          <p style={{ marginBottom: '2rem' }}>
             <a href="https://linkedin.com/in/petya-yordanova" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(255, 255, 255, 0.6)', textDecoration: 'none' }}>
               LinkedIn
             </a>
-            {' · '}
-            <a href="mailto:hello@talentarc.eu" style={{ color: 'rgba(255, 255, 255, 0.6)', textDecoration: 'none' }}>
-              hello@talentarc.eu
-            </a>
           </p>
-          <p style={{ marginTop: '2rem', fontSize: '0.9rem' }}>© 2025 TalentArc. All rights reserved.</p>
+          <p style={{ fontSize: '0.9rem', color: 'rgba(255, 255, 255, 0.6)' }}>
+            © 2025 Aporis LLC. All rights reserved.
+          </p>
         </div>
       </footer>
     </div>
