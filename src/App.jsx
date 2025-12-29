@@ -583,7 +583,7 @@ const TalentArc = () => {
         </div>
       </section>
 
-        {/* Footer */}
+      {/* Footer */}
       <footer style={{
         background: '#1A1A1A',
         color: 'rgba(255, 255, 255, 0.6)',
