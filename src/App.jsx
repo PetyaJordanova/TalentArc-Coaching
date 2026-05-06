@@ -142,57 +142,37 @@ const TalentArc = () => {
         </div>
       </section>
 
+     
       {/* Problem */}
       <section style={{ padding: '5rem 2rem', background: '#FAF8F5' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
-            <h2 className="headline" style={{ fontSize: '3rem', marginBottom: '1rem', color: '#1A1A1A' }}>
-              The Reality
-            </h2>
+            <h2 className="headline" style={{ fontSize: '3rem', marginBottom: '1rem', color: '#1A1A1A' }}>What's actually going on</h2>
             <p style={{ fontSize: '1.2rem', color: '#6B6B6B', marginBottom: '3rem', lineHeight: 1.8 }}>
-              The job market has changed.
+              When change is coming, the instinct is to get ahead of it. Do everything at once. But that usually just means doing a lot of things badly, in the wrong order, while getting more and more tired.
             </p>
 
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-              gap: '2rem',
-              marginTop: '3rem',
-              textAlign: 'left'
-            }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem', marginTop: '3rem', textAlign: 'left' }}>
               {[
                 {
-                  title: 'Applications Disappear Into the Void. Interviews Go Nowhere',
-                  description: 'You send out dozen applications. You answer correctly. And somehow it still doesn’t land. You’re qualified, but invisible.'
+                  title: 'You apply. Nothing happens.',
+                  description: "You send out applications, answer every question, and still hear nothing. You're qualified. Somehow still invisible. The process changed and nobody told you how."
                 },
                 {
-                  title: 'You Don’t Know How to Break Into the Field You Want',
-                  description: 'Tech. Engineering. AI. You want in, but the path isn’t clear. Every posting wants experience you don’t have. No one’s showing you the actual entry points.'
+                  title: 'The field you want feels out of reach',
+                  description: "You can see where you want to go. Every posting wants experience you don't have yet. The path in isn't obvious and nobody is showing it to you."
                 },
                 {
-                  title: 'You’re Building a Career, But You Don’t Have a Map',
-                  description: 'You know where you want to go, but not how to get there. The steps aren’t obvious. The AI-driven job market has rewritten the rules, and the old advice doesn’t apply.'
+                  title: "You're doing everything and nothing is moving",
+                  description: "Ten things at once. Busy all the time. Still stuck. That's not a productivity problem. It's a focus problem. And it's a lot harder to solve when you're solving it alone."
                 },
                 {
-                  title: 'Cookie-Cutter Coaching Won’t Get You There',
-                  description: 'You need someone who’s hired hundreds of people, built AI and data teams from scratch, and actually understands both the human side and the tech transformation happening right now.'
+                  title: 'The advice you find could apply to anyone',
+                  description: "Generic frameworks. Template CVs. Interview tips that work for nobody in particular. You need someone who has actually sat in the hiring seat and watched what works up close."
                 }
               ].map((item, idx) => (
-                <div key={idx} style={{
-                  background: '#FFFFFF',
-                  padding: '2rem 1.75rem',
-                  borderLeft: '3px solid #9A6B7A'
-                }}>
-                  <h3 style={{
-                    fontFamily: "'Playfair Display', serif",
-                    fontSize: '1.35rem',
-                    fontWeight: 700,
-                    marginBottom: '1rem',
-                    color: '#1A1A1A',
-                    lineHeight: 1.3
-                  }}>
-                    {item.title}
-                  </h3>
+                <div key={idx} style={{ background: '#FFFFFF', padding: '2rem 1.75rem', borderLeft: '3px solid #9A6B7A' }}>
+                  <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.35rem', fontWeight: 700, marginBottom: '1rem', color: '#1A1A1A', lineHeight: 1.3 }}>{item.title}</h3>
                   <p style={{ color: '#6B6B6B', lineHeight: 1.7, fontSize: '0.95rem' }}>{item.description}</p>
                 </div>
               ))}
@@ -202,87 +182,45 @@ const TalentArc = () => {
       </section>
 
       {/* About */}
-      <section style={{ padding: '5rem 2rem', background: '#FFFFFF' }}>
+      <section id="about" style={{ padding: '5rem 2rem', background: '#FFFFFF' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div className="two-col" style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 1fr',
-            gap: '4rem',
-            alignItems: 'center'
-          }}>
+          <div className="two-col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
             <div>
-              <p style={{
-                fontSize: '0.85rem',
-                fontWeight: 700,
-                letterSpacing: '0.15em',
-                textTransform: 'uppercase',
-                color: '#9A6B7A',
-                marginBottom: '1rem'
-              }}>
-                About
-              </p>
-
-              <h2 className="headline" style={{ fontSize: '3rem', marginBottom: '2rem', color: '#1A1A1A' }}>
-                I've Been on<br/>the Other Side
-              </h2>
+              <p style={{ fontSize: '0.85rem', fontWeight: 700, letterSpacing: '0.15em', textTransform: 'uppercase', color: '#9A6B7A', marginBottom: '1rem' }}>About</p>
+              <h2 className="headline" style={{ fontSize: '3rem', marginBottom: '2rem', color: '#1A1A1A' }}>I've been on<br/>the other side</h2>
 
               <p style={{ fontSize: '1.1rem', color: '#6B6B6B', marginBottom: '1.5rem', lineHeight: 1.8 }}>
-                I spent 8 years recruiting for tech companies - Commerzbank, Accenture, 
-                ManpowerGroup - hiring for AI, data, and engineering teams.
+                I spent 8 years watching people navigate career transitions from the hiring side. The ones who struggled weren't the least qualified. They were the ones who panicked, sent 80 applications, rewrote their CV four times, pivoted their pitch every week. Busy. Burning out. Going nowhere.
               </p>
 
               <p style={{ fontSize: '1.1rem', color: '#6B6B6B', marginBottom: '1.5rem', lineHeight: 1.8 }}>
-                During that time, I reviewed thousands of resumes and conducted hundreds of interviews. 
-                I also built teams from scratch and led diversity & inclusion initiatives.
+                The ones who landed well did something different. They stopped covering all the bases and got specific about who they were, what they wanted, and where the market actually had room for them. That clarity doesn't come easy when you're doing it alone. Especially now, when the ground keeps shifting and the old rules don't apply anymore.
               </p>
 
               <p style={{ fontSize: '1.1rem', color: '#6B6B6B', marginBottom: '1.5rem', lineHeight: 1.8 }}>
-                I achieved a 90%+ offer acceptance rate, not by selling candidates a dream, 
-                but by preparing them properly and matching them to roles that actually fit.
+                I'm now inside the AI transformation at a major European bank. I see what's coming before most people feel it. And I know what it looks like when someone navigates change well versus when they're just running faster in the wrong direction.
               </p>
 
               <p style={{ fontSize: '1.1rem', color: '#1A1A1A', fontWeight: 600, marginBottom: '2rem', lineHeight: 1.8 }}>
-                Most people have no idea what happens on the other side. I do. Because I was making those decisions.
+                I want to be in your corner.
               </p>
 
               <a href="#services" className="button">Work With Me</a>
             </div>
 
             <div style={{ background: '#FAF8F5', padding: '3rem', borderRadius: '8px' }}>
-              <h3 style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '1.8rem',
-                fontWeight: 700,
-                marginBottom: '2rem',
-                color: '#1A1A1A'
-              }}>
-                What Makes This Different
-              </h3>
-
+              <h3 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1.8rem', fontWeight: 700, marginBottom: '2rem', color: '#1A1A1A' }}>What makes this different</h3>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                 {[
-                  '8 years recruiting for tech companies',
-                  '1,000+ resumes reviewed and counting',
-                  '90%+ offer acceptance rate',
-                  'Built AI, data, and engineering teams from scratch',
-                  'Led diversity & inclusion initiatives',
-                  'No corporate jargon, just practical insight'
+                  '8 years recruiting for tech companies across Europe',
+                  '1,000+ resumes reviewed. I know what gets read and what gets deleted.',
+                  '90%+ offer acceptance rate. Not luck. Preparation and fit.',
+                  'Currently inside an AI transformation at a major European bank',
+                  'Led diversity and inclusion hiring initiatives',
+                  'No templates. No scripts. Just honest, practical insight.'
                 ].map((item, idx) => (
                   <div key={idx} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-                    <div style={{
-                      minWidth: '24px',
-                      height: '24px',
-                      background: '#9A6B7A',
-                      borderRadius: '50%',
-                      display: 'flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      color: '#FFFFFF',
-                      fontSize: '0.8rem',
-                      fontWeight: 700
-                    }}>
-                      ✓
-                    </div>
+                    <div style={{ minWidth: '24px', height: '24px', background: '#9A6B7A', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#FFFFFF', fontSize: '0.8rem', fontWeight: 700 }}>✓</div>
                     <p style={{ color: '#1A1A1A', fontSize: '1.05rem', lineHeight: 1.6 }}>{item}</p>
                   </div>
                 ))}
