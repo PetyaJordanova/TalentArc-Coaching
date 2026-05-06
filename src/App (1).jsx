@@ -126,78 +126,17 @@ const TalentArc = () => {
               Career Coaching from a Former Recruiter
             </p>
 
-            <h1 className="headline" style={{ fontSize: '4.5rem', marginBottom: '2rem', color: '#FFFFFF' }}>
-              Shape Your Career.<br/>Land Your Dream Job.
+             <h1 className="headline" style={{ fontSize: '4.5rem', marginBottom: '2rem', color: '#FFFFFF' }}>
+              The world is rewriting the rules and nobody sent you the new ones.
             </h1>
 
             <p style={{ fontSize: '1.15rem', lineHeight: 1.8, marginBottom: '3rem', opacity: 0.95, fontWeight: 300 }}>
-              Eight years as a tech recruiter taught me this: the best hires aren’t the ones who fit a template - they’re the ones who know how to position their unique value. I’ve reviewed thousands of resumes and conducted hundreds of interviews. I know exactly what hiring managers are looking for. Now I use that insider perspective to help you stand out and land the role you deserve.
+              When change is coming, the instinct is to get ahead of it. Do everything at once. Ride the wave before it passes. But pushing yourself toward things that aren't yours just because the market is moving. That's not a strategy. That's how you burn out doing the wrong thing faster.
             </p>
 
             <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               <a href="#services" className="button">See Services</a>
               <a href="https://calendly.com/talentarc/new-meeting" target="_blank" rel="noopener noreferrer" className="button button-secondary">Book Free Call</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Bar */}
-      <section style={{ background: '#9A6B7A', padding: '2.5rem 2rem', color: '#FFFFFF' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-            gap: '2rem',
-            textAlign: 'center'
-          }}>
-            <div>
-              <div style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '3rem',
-                fontWeight: 700,
-                marginBottom: '0.5rem',
-                display: 'inline-block',
-                padding: '0.5rem 1.5rem',
-                border: '2px solid rgba(255, 255, 255, 0.4)',
-                borderRadius: '4px',
-                background: 'rgba(255, 255, 255, 0.1)'
-              }}>
-                8 Years
-              </div>
-              <div style={{ opacity: 0.9, marginTop: '1rem' }}>Recruiting Experience</div>
-            </div>
-            <div>
-              <div style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '3rem',
-                fontWeight: 700,
-                marginBottom: '0.5rem',
-                display: 'inline-block',
-                padding: '0.5rem 1.5rem',
-                border: '2px solid rgba(255, 255, 255, 0.4)',
-                borderRadius: '4px',
-                background: 'rgba(255, 255, 255, 0.1)'
-              }}>
-                90%+
-              </div>
-              <div style={{ opacity: 0.9, marginTop: '1rem' }}>Offer Acceptance Rate</div>
-            </div>
-            <div>
-              <div style={{
-                fontFamily: "'Playfair Display', serif",
-                fontSize: '3rem',
-                fontWeight: 700,
-                marginBottom: '0.5rem',
-                display: 'inline-block',
-                padding: '0.5rem 1.5rem',
-                border: '2px solid rgba(255, 255, 255, 0.4)',
-                borderRadius: '4px',
-                background: 'rgba(255, 255, 255, 0.1)'
-              }}>
-                1,000+
-              </div>
-              <div style={{ opacity: 0.9, marginTop: '1rem' }}>Resumes Reviewed</div>
             </div>
           </div>
         </div>
@@ -211,7 +150,7 @@ const TalentArc = () => {
               The Reality
             </h2>
             <p style={{ fontSize: '1.2rem', color: '#6B6B6B', marginBottom: '3rem', lineHeight: 1.8 }}>
-              The job market has changed. You’re feeling it.
+              The job market has changed.
             </p>
 
             <div style={{
