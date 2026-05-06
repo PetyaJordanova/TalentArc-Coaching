@@ -131,7 +131,7 @@ const TalentArc = () => {
             </h1>
 
             <p style={{ fontSize: '1.15rem', lineHeight: 1.8, marginBottom: '3rem', opacity: 0.95, fontWeight: 300 }}>
-              When change is coming, the instinct is to get ahead of it. Do everything at once. Ride the wave before it passes. But pushing yourself toward things that aren't yours just because the market is moving. That's not a strategy. That's how you burn out doing the wrong thing faster.
+              When change is coming, the instinct is to get ahead of it. Do everything at once. Ride the wave before it passes. But pushing yourself toward things that aren't yours just because the market is moving - that's not a strategy. That's how you burn out doing the wrong thing faster.
             </p>
 
             <div style={{ display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
